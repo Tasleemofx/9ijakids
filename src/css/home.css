@@ -1,0 +1,35 @@
+
+    .gameList{
+        max-width: 70%;
+        margin: 1em auto;
+        background-color: lightcoral;
+        padding: 0.7em;
+        color: white;
+    }
+    .gameList img{
+        height: 50vh;
+        width: 70vw;
+        
+    }
+    .gameList h3{
+        font-size: 1.5em;
+        color: lightblue
+    }
+    .gameList p{
+        font-weight: 600;
+    }
+    .alert{
+        color: red;
+        font-size: 0.7em;
+    }
+    @media screen and (min-width: 400px){
+        .games{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .gameList img{
+        height: 50vh;
+        width: 30vw;
+        
+    }
+}
